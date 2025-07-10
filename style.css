@@ -35,6 +35,10 @@
   color: #343a40;
 }
 
+.header__nav {
+  display: none;
+}
+
 .header__list {
   list-style: none;
   display: flex;
@@ -114,10 +118,6 @@
 @media only screen and (max-width: 37.5em) {
   .container {
     padding: 0 20px;
-  }
-
-  .header__nav {
-    display: none;
   }
 
   .portfolio {
